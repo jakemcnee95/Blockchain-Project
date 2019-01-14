@@ -1,0 +1,25 @@
+{
+  "name": "myproto",
+  "version": "1.0.0",
+  "description": "protobuf",
+  "main": "index.js",
+  "scripts": {
+    "test": "protobuf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "keywords": [
+    "protocol",
+    "buffering"
+  ],
+  "author": "Jake McNee",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "protocol-buffers": "^4.0.4",
+    "socket.io": "^2.1.0"
+  }
+}

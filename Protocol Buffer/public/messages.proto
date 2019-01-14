@@ -1,0 +1,16 @@
+message MapMessage {
+    message MapM {
+        required string F = 1;
+        required string T = 2;
+        required float A = 3;
+        required string D = 4;
+        }
+    required MapM info = 1;
+    optional string sid = 2;
+    optional float port = 3;
+}
+
+message ID {
+    required string myid = 1;
+}
+
